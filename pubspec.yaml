@@ -1,0 +1,22 @@
+name: embla_rest
+description: Restful API platform for Embla
+version: 0.1.0
+author: Emil Persson <emil.n.persson@gmail.com>
+homepage: https://github.com/emilniklas/embla_rest
+
+environment:
+  sdk: ">=1.12.0 <2.0.0"
+
+dependencies:
+  embla: ^0.1.4
+  embla_templates: ^0.1.0
+
+dev_dependencies:
+  test: any
+  quark: any
+
+dependency_overrides:
+  embla:
+    path: ../embla
+  embla_templates:
+    path: ../embla_templates
